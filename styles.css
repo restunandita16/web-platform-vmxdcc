@@ -297,7 +297,7 @@ a {
 
 .heading span {
   background: rgb(239, 137, 4);
-  color: aliceblue;
+  color: black;
   display: inline-block;
   padding: 0rem 1rem;
   clip-path: polygon(100% 0%, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
