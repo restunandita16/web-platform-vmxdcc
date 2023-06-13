@@ -285,16 +285,13 @@ a {
   right: 1rem;
 }
 
-
-
-
 /*Customer Review Section*/
 
 .heading {
   text-align: center;
   padding: 2rem 0;
   padding-bottom: 3rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: black;
 }
 
@@ -339,14 +336,14 @@ a {
   padding-top: 1rem;
   line-height: 1.8;
   font-size: 0.7rem;
-  font-family:'Lucida Sans', 'Lucida Sans Regular';
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
 
 .review .review-slider .box h3 {
   padding-bottom: 0.3rem;
   color: black;
   font-size: 1rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .review .review-slider .box .stars i {
@@ -412,7 +409,6 @@ a {
   color: white;
   border-top: var(--border);
   background-color: black;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
