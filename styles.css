@@ -285,6 +285,9 @@ a {
   right: 1rem;
 }
 
+
+
+
 /*Customer Review Section*/
 
 .heading {
@@ -338,16 +341,18 @@ a {
   line-height: 1.8;
   color: var(--light-color);
   font-size: 0.7rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular';
 }
 
 .review .review-slider .box h3 {
   padding-bottom: 0.3rem;
   color: var(--black);
   font-size: 1rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .review .review-slider .box .stars i {
-  color: rgb(239, 137, 4);
+  color: ;
   font-size: 1rem;
 }
 
@@ -357,14 +362,14 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #003e52;
+  color: rgb(247, 7, 7);
   padding: 1rem 0;
   transition: 0.2s all cubic-bezier(0.55, 0.24, 0, 1.27);
 }
 
 /*Footer*/
 .footer {
-  background: whitesmoke;
+  background: rgb(239, 137, 4);
   margin-top: 2rem;
 }
 
