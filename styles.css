@@ -320,7 +320,6 @@ a {
   padding: 3rem 2rem;
   outline-offset: -1rem;
   outline: auto;
-  box-shadow: var(--box-shadow);
   transition: 0.2s linear;
   margin-bottom: 0.5rem;
 }
@@ -339,14 +338,13 @@ a {
 .review .review-slider .box p {
   padding-top: 1rem;
   line-height: 1.8;
-  color: var(--light-color);
   font-size: 0.7rem;
   font-family:'Lucida Sans', 'Lucida Sans Regular';
 }
 
 .review .review-slider .box h3 {
   padding-bottom: 0.3rem;
-  color: var(--black);
+  color: black;
   font-size: 1rem;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
