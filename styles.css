@@ -311,7 +311,7 @@ a {
 }
 
 .review .review-slider .box {
-  background-color: rgb(255, 242, 219);
+  background-color: #fff9e2;
   border-radius: 0.5rem;
   text-align: center;
   padding: 3rem 2rem;
@@ -357,9 +357,33 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgb(247, 7, 7);
+  color: red;
   padding: 1rem 0;
   transition: 0.2s all cubic-bezier(0.55, 0.24, 0, 1.27);
+}
+
+/*Instagram*/
+.instagram {
+  background-color: none;
+}
+
+.instagram .card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.instagram .card-container .card {
+  padding: 0.2rem;
+  transition: 0.2s;
+}
+
+.instagram .card-container .card img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.2s;
 }
 
 /*Footer*/
