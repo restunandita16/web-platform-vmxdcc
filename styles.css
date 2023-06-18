@@ -365,6 +365,7 @@ a {
 /*Instagram*/
 .instagram {
   background-color: none;
+  margin-top: 2rem;
 }
 
 .instagram .card-container {
@@ -372,6 +373,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
 
 .instagram .card-container .card {
@@ -386,10 +388,21 @@ a {
   transition: 0.2s;
 }
 
+.instagram h3 {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 140.62%;
+  margin-left: 7.6rem;
+}
+
 /*Footer*/
 .footer {
   background: rgb(239, 137, 4);
   margin-top: 2rem;
+  padding: 0.5rem;
 }
 
 .footer .box-container {
@@ -400,25 +413,28 @@ a {
 }
 
 .footer .box-container .box h3 {
+  font-family: 'Lucida Sans';
+  font-style: var(--bg-primary);
   font-size: 1rem;
   color: rgb(15, 1, 1);
-  padding: -1rem -1rem;
+  padding: 0rem 0rem;
 }
 
 .footer .box-container .box p {
   line-height: 1.2;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  font-family: 'Lucida Sans Regular';
   color: black;
   padding: -1rem 0;
 }
 
 .footer .box-container .box .share a {
-  height: 1.2rem;
-  width: 1.2rem;
+  height: 1.3rem;
+  width: 1.3rem;
   line-height: 1.2rem;
   border-radius: 0.5rem;
   font-size: 1rem;
-  color: rgb(8, 8, 8);
+  color: black;
   margin-left: 0.2rem;
   background: white;
   text-align: center;
