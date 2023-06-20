@@ -8,12 +8,12 @@ body {
   padding: 0;
 }
 
-header{
+header {
   display: inline;
 }
 
 .nav-bar {
-  background-color: #FF9927;
+  background-color: #ff9927;
   height: 80px;
   padding-left: 8%;
   padding-right: 8%;
@@ -29,7 +29,7 @@ header{
 
 nav a {
   text-decoration: none;
-  font-weight: bold;    
+  font-weight: bold;
   font-size: 18px;
   color: black;
 }
@@ -45,15 +45,15 @@ nav a:hover {
 .menu-bar {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .nav-right {
-  display: flex; 
-  align-items: center; 
-  
-  @media (min-width: 768px) { 
-     order: 2; 
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    order: 2;
   }
 }
 
@@ -63,8 +63,8 @@ nav a:hover {
 }
 
 button {
-  font-family: 'EB Garamond', serif;
-  font-weight: bold;    
+  font-family: serif;
+  font-weight: bold;
   font-size: 18px;
   text-decoration: underline;
   border: none;
@@ -131,7 +131,7 @@ button {
 
 .dropdown-link {
   display: flex;
-  color: #FFEB02;
+  color: #ffeb02;
   font-weight: 300;
   gap: 0.5rem;
   border-radius: 7px;
@@ -156,7 +156,7 @@ button {
   stroke: black;
   stroke-width: 6;
   transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-  stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .line1 {
@@ -194,7 +194,7 @@ button {
 
 @media screen and (max-width: 985px) {
   .nav-menu {
-      width: 30%;
+    width: 30%;
   }
 }
 
@@ -203,38 +203,38 @@ button {
     display: block;
   }
   .dropdown {
-      min-width: 150px;
+    min-width: 150px;
   }
   .nav-bar {
-      padding-left: 5%;
-      padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .nav-menu {
-      height: 0;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      background-color: black;
-      transition: 0.5s;
-      overflow: hidden;
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: black;
+    transition: 0.5s;
+    overflow: hidden;
   }
   .menu-bar {
-      display: block;
-      width: fit-content;
-      margin: 24px auto 0 auto;
-      text-align: center;
-      transition: 0.5s;
+    display: block;
+    width: fit-content;
+    margin: 24px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
   }
   .menu-bar li {
-      margin-bottom: 24px;
+    margin-bottom: 24px;
   }
   .menu-bar li a {
-      color: #FFEB02;
+    color: #ffeb02;
   }
   .nav-menu.opened {
-      height: auto;
+    height: auto;
   }
 }
 
@@ -375,7 +375,7 @@ div.desc {
 }
 
 .btn {
-  font-family: Garamond;
+  font-family: serif;
   font-size: 17px;
   font-weight: bolder;
   background: #ff9927;
@@ -429,7 +429,7 @@ btn:focus,
 }
 
 .review .review-slider .box {
-  background-color: #FEF2CA;
+  background-color: #fef2ca;
   border-radius: 0.5rem;
   text-align: center;
   padding: 3rem 2rem;
@@ -454,14 +454,14 @@ btn:focus,
   padding-top: 1rem;
   line-height: 1.8;
   font-size: 0.7rem;
-  font-family: Garamond;
+  font-family: serif;
 }
 
 .review .review-slider .box h3 {
   padding-bottom: 0.3rem;
   color: black;
   font-size: 1rem;
-  font-family: Garamond;
+  font-family: serif;
 }
 
 .review .review-slider .box .stars i {
@@ -470,7 +470,7 @@ btn:focus,
 }
 
 .button-link {
-  font-family: Garamond;
+  font-family: serif;
   font-size: 15px;
   line-height: 2;
   text-align: center;
@@ -485,6 +485,7 @@ btn:focus,
 .instagram {
   background-color: none;
   margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 .instagram .card-container {
