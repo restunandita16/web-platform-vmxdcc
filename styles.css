@@ -452,21 +452,22 @@ btn:focus,
 
 .review .review-slider .box p {
   padding-top: 1rem;
-  line-height: 1.8;
-  font-size: 0.7rem;
+  line-height: 1.2;
+  font-size: 20px;
+  padding-bottom: 1rem;
   font-family: serif;
 }
 
 .review .review-slider .box h3 {
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.5rem;
   color: black;
-  font-size: 1rem;
+  font-size: 25px;
   font-family: serif;
 }
 
 .review .review-slider .box .stars i {
   color: orange;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .button-link {
